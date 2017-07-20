@@ -51,10 +51,10 @@ export default class Presentation extends Component {
           <List textColor="primary">
             <ListItem>History of OSS</ListItem>
             <ListItem>Big Human Projects</ListItem>
-            <ListItem>React Native OSS State</ListItem>
+            <ListItem>State of OSS (React)</ListItem>
             <ListItem>Business of OSS</ListItem>
-            <ListItem>Caveats of OSS</ListItem>
-            <ListItem>Pros for OSS</ListItem>
+            <ListItem>Disadvantages of OSS</ListItem>
+            <ListItem>OSS Inception</ListItem>
             <ListItem>Involvement</ListItem>
             <ListItem>Tanks</ListItem>
           </List>
@@ -136,7 +136,7 @@ export default class Presentation extends Component {
             </ListItem>
             <ListItem>Free Software Foundation - 1985</ListItem>
             <ListItem>
-              Linux / GNU Linux - 1991
+              Linux v0.1 Release - 1991
             </ListItem>
             <ListItem>Netscape Open Sourced - 1998</ListItem>
             <ListItem>Open Source Initiative - 1999</ListItem>
@@ -185,7 +185,7 @@ export default class Presentation extends Component {
           </Heading>
           <List textColor="primary">
             <ListItem>NodeJS</ListItem>
-            <ListItem>MongoDB / Postgres / Meteor</ListItem>
+            <ListItem>MongoDB / Postgres / Redis</ListItem>
             <ListItem>React / React Native</ListItem>
             <ListItem>Webpack / Grunt / Gulp</ListItem>
             <ListItem>Wordpress</ListItem>
@@ -216,9 +216,6 @@ export default class Presentation extends Component {
             </ListItem>
             <ListItem textSize={26} italic margin="10px 0 10px 40px">
               Flow
-            </ListItem>
-            <ListItem textSize={26} italic margin="10px 0 10px 40px">
-              Hack
             </ListItem>
             <ListItem textSize={26} italic margin="10px 0 10px 40px">
               Reason (OCaml)
@@ -271,8 +268,177 @@ export default class Presentation extends Component {
         </Slide>
         {/* End Slide 10 */}
 
-        {/* Slide 10 */}
-        <Slide transition={["zoom", "fade"]} bgColor="tertiary" textColor="primary">
+        {/* Slide 11 */}
+        <Slide transition={["slide"]} bgColor="tertiary" textColor="tertiary">
+          <Heading
+            size={6}
+            textColor="secondary"
+            caps
+          >
+            Business of Open Source
+          </Heading>
+          <List textColor="primary">
+            <ListItem textSize={30} padding="10px 0">
+              Low-cost marketing / Hiring
+            </ListItem>
+            <ListItem textSize={30} padding="10px 0">
+              Control future and standards
+            </ListItem>
+            <ListItem textSize={30} padding="10px 0">
+              SaSS / OpenSaSS
+            </ListItem>
+            <ListItem textSize={30} padding="10px 0">
+              Certifications / Support
+            </ListItem>
+            <ListItem textSize={30} padding="10px 0">
+              Reduce development costs / premium features
+            </ListItem>
+            <ListItem textSize={30} padding="10px 0">
+              Individual compensation
+            </ListItem>
+          </List>
+        </Slide>
+        {/* End Slide 11 */}
+
+        {/* Slide 12 */}
+        <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
+          <Heading
+            size={6}
+            textColor="tertiary"
+            caps
+          >
+            Low Cost Marketing / Hiring
+          </Heading>
+          <Image
+            src="http://i1-news.softpedia-static.com/images/news2/gstreamer-1-6-open-source-multimedia-backend-gets-closer-to-release-here-s-what-s-new-489962-2.jpg"
+            width={"65%"}
+            margin="50px 0"
+          />
+        </Slide>
+        {/* End Slide 12 */}
+
+        {/* Slide 13 */}
+        <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
+          <Heading
+            size={6}
+            textColor="tertiary"
+            caps
+          >
+            Control Future & Standards
+          </Heading>
+          <Image
+            src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-logo-preview.png"
+            width={"40%"}
+          />
+        </Slide>
+        {/* End Slide 13 */}
+
+        {/* Slide 14 */}
+        <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
+          <Heading
+            size={6}
+            textColor="tertiary"
+            caps
+          >
+            SaSS / OpenSaSS
+          </Heading>
+          <Image
+            src="http://culturecodes.co/wp-content/logos/gitlab.png"
+            width={"40%"}
+            margin="60px 0"
+          />
+        </Slide>
+        {/* End Slide 14 */}
+
+        {/* Slide 15 */}
+        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
+          <Heading
+            size={6}
+            textColor="tertiary"
+            caps
+          >
+            Certifications / Support
+          </Heading>
+          <Image
+            src="http://i.imgur.com/8p0DoVJ.png"
+            width={"80%"}
+            margin="60px 0"
+          />
+        </Slide>
+        {/* End Slide 15 */}
+
+        {/* Slide 16 */}
+        <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
+          <Heading
+            size={6}
+            textColor="tertiary"
+            caps
+          >
+            Reduce development costs / premium features
+          </Heading>
+          <Image
+            src="https://freeiconshop.com/wp-content/uploads/edd/calendar-flat-2.png"
+            width={"40%"}
+            margin="60px 0"
+          />
+        </Slide>
+        {/* End Slide 16 */}
+
+        {/* Slide 17 */}
+        <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
+          <Heading
+            size={6}
+            textColor="tertiary"
+            caps
+          >
+            Individual Compensation
+          </Heading>
+          <Image
+            src="http://i.imgur.com/eLBnfZB.png"
+            width={"80%"}
+            margin="60px 0"
+          />
+        </Slide>
+        {/* End Slide 17 */}
+
+        {/* Slide 18 */}
+        <Slide transition={["slide"]} bgColor="tertiary" textColor="tertiary">
+          <Heading
+            size={6}
+            textColor="secondary"
+            caps
+          >
+            Disadvantages of OSS
+          </Heading>
+          <List textColor="primary">
+            <ListItem textSize={30} padding="10px 0">
+              Source code is openly available
+            </ListItem>
+            <ListItem textSize={30} padding="10px 0">
+              Not reading source code can be malicious
+            </ListItem>
+            <ListItem textSize={30} padding="10px 0">
+              Competition is fierce
+            </ListItem>
+            <ListItem textSize={30} padding="10px 0">
+              Enterprise team building for OSS initiatives / issues
+            </ListItem>
+          </List>
+        </Slide>
+        {/* End Slide 18 */}
+
+        {/* Slide 19 */}
+        <Slide transition={["slide"]} bgColor="secondary" textColor="tertiary">
+          <Image
+            src="http://i.imgur.com/2eNrJq9.png"
+            width={"90%"}
+            margin="60px 0"
+          />
+        </Slide>
+        {/* End Slide 19 */}
+
+        {/* Slide 20 */}
+        <Slide transition={["slide"]} bgColor="tertiary" textColor="primary">
           <Heading
             size={6}
             textColor="primary"
@@ -281,6 +447,7 @@ export default class Presentation extends Component {
             OSS Inception
           </Heading>
           <List textColor="primary">
+            <ListItem>Facebook</ListItem>
             <ListItem>React</ListItem>
             <ListItem>Formidable Labs</ListItem>
             <ListItem>Spectacle</ListItem>
@@ -288,9 +455,9 @@ export default class Presentation extends Component {
             <ListItem>OSS Presentation</ListItem>
           </List>
         </Slide>
-        {/* End Slide 10 */}
+        {/* End Slide 20 */}
 
-        {/* Slide 10 */}
+        {/* Slide 21 */}
         <Slide transition={["slide"]} bgColor="secondary" textColor="primary">
           <Heading
             size={6}
@@ -312,9 +479,9 @@ export default class Presentation extends Component {
             </ListItem>
           </List>
         </Slide>
-        {/* End Slide 10 */}
+        {/* End Slide 21 */}
 
-        {/* Slide 10 */}
+        {/* Slide 22 */}
         <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
           <Heading
             size={6}
@@ -328,7 +495,7 @@ export default class Presentation extends Component {
             width={"90%"}
           />
         </Slide>
-        {/* End Slide 10 */}
+        {/* End Slide 22 */}
       </Deck>
     );
   }
