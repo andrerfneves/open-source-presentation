@@ -48,15 +48,15 @@ export default class Presentation extends Component {
           >
             Table of Content
           </Heading>
-          <List textColor="primary">
-            <ListItem>History of OSS</ListItem>
-            <ListItem>Big Human Projects</ListItem>
-            <ListItem>State of OSS (React)</ListItem>
-            <ListItem>Business of OSS</ListItem>
-            <ListItem>Disadvantages of OSS</ListItem>
-            <ListItem>OSS Inception</ListItem>
-            <ListItem>Involvement</ListItem>
-            <ListItem>Tanks</ListItem>
+          <List margin="30px 0 0" textColor="primary">
+            <ListItem margin="10px 0 0">History of OSS</ListItem>
+            <ListItem margin="10px 0 0">Big Human Projects</ListItem>
+            <ListItem margin="10px 0 0">State of OSS (React)</ListItem>
+            <ListItem margin="10px 0 0">Business of OSS</ListItem>
+            <ListItem margin="10px 0 0">Disadvantages of OSS</ListItem>
+            <ListItem margin="10px 0 0">OSS Inception</ListItem>
+            <ListItem margin="10px 0 0">Involvement</ListItem>
+            <ListItem margin="10px 0 0">Tanks</ListItem>
           </List>
         </Slide>
         {/* End Slide 2 */}
@@ -157,19 +157,19 @@ export default class Presentation extends Component {
             OSS Licenses
           </Heading>
           <List textColor="primary">
-            <ListItem>Apache License 2.0</ListItem>
-            <ListItem>BSD 2-Clause "Simplified" or "FreeBSD"</ListItem>
-            <ListItem>BSD 3-Clause "New" or "Revised"</ListItem>
-            <ListItem>GNU Library or "Lesser" General Public</ListItem>
-            <ListItem>GNU General Public License (GPL)</ListItem>
-            <ListItem>MIT License</ListItem>
+            <ListItem margin="10px 0 0">Apache License 2.0</ListItem>
+            <ListItem margin="10px 0 0">BSD 2-Clause "Simplified" or "FreeBSD"</ListItem>
+            <ListItem margin="10px 0 0">BSD 3-Clause "New" or "Revised"</ListItem>
+            <ListItem margin="10px 0 0">GNU Library or "Lesser" General Public</ListItem>
+            <ListItem margin="10px 0 0">GNU General Public License (GPL)</ListItem>
+            <ListItem margin="10px 0 0">MIT License</ListItem>
               <ListItem textSize={26} italic margin="10px 0 10px 40px">
                 Most widely used - free of charge all grants
               </ListItem>
-            <ListItem>Mozilla Public License 2.0</ListItem>
-            <ListItem>Apache License 2.0</ListItem>
-            <ListItem>Common Development and Distribution</ListItem>
-            <ListItem>Eclipse Public License</ListItem>
+            <ListItem margin="10px 0 0">Mozilla Public License 2.0</ListItem>
+            <ListItem margin="10px 0 0">Apache License 2.0</ListItem>
+            <ListItem margin="10px 0 0">Common Development and Distribution</ListItem>
+            <ListItem margin="10px 0 0">Eclipse Public License</ListItem>
           </List>
         </Slide>
         {/* End Slide 7 */}
@@ -184,12 +184,12 @@ export default class Presentation extends Component {
             Big Human Projects
           </Heading>
           <List textColor="primary">
-            <ListItem>NodeJS</ListItem>
-            <ListItem>MongoDB / Postgres / Redis</ListItem>
-            <ListItem>React / React Native</ListItem>
-            <ListItem>Webpack / Grunt / Gulp</ListItem>
-            <ListItem>Wordpress</ListItem>
-            <ListItem>... trust me many more</ListItem>
+            <ListItem margin="10px 0 0">NodeJS</ListItem>
+            <ListItem margin="10px 0 0">MongoDB / Postgres / Redis</ListItem>
+            <ListItem margin="10px 0 0">React / React Native</ListItem>
+            <ListItem margin="10px 0 0">Webpack / Grunt / Gulp</ListItem>
+            <ListItem margin="10px 0 0">Wordpress</ListItem>
+            <ListItem margin="10px 0 0">... trust me many more</ListItem>
           </List>
         </Slide>
         {/* End Slide 8 */}
